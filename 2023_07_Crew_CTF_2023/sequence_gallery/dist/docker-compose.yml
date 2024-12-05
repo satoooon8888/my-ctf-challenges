@@ -1,0 +1,8 @@
+version: '3'
+services:
+  sequence_gallery:
+    container_name: 'sequence_gallery'
+    build: .
+    ports: 
+      - '8080:80'
+    restart: always

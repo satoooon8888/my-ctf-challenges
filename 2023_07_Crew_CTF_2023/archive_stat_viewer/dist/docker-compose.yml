@@ -1,0 +1,8 @@
+version: '3'
+services:
+  archive_stat_viewer:
+    container_name: 'archive_stat_viewer'
+    build: .
+    ports: 
+      - 8080:80
+    restart: always

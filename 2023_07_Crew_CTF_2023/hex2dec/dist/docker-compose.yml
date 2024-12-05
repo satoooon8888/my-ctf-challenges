@@ -1,0 +1,18 @@
+version: '3'
+ 
+services:
+  bot:
+    container_name: 'bot'
+    build: ./bot
+    environment:
+      - FLAG=dummy{this_is_a_dummy_flag}
+    restart: always
+
+  chall:
+    container_name: 'chall'
+    build: ./chall
+    ports:
+      - '8080:8080'
+    depends_on:
+      - bot
+    restart: always

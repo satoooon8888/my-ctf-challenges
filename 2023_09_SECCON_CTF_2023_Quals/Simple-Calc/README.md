@@ -1,0 +1,6 @@
+# Simple Calc
+
+## Author
+
+Satoooon
+

@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  web:
+    build:
+      context: ./nginx
+      dockerfile: ./Dockerfile
+    depends_on:
+      - php
+#    image: '${IMAGE_NAME_NGINX}'
+    ports:
+     - "443:443"
+  php:
+    build:
+      context: ./app
+      dockerfile: ./Dockerfile
+#    image: '${IMAGE_NAME_APP}'

@@ -1,0 +1,21 @@
+version: '3'
+services:
+  web:
+    container_name: 'web'
+    build: ./web
+    ports: 
+      - '8080:8080'
+    restart: always
+    depends_on: 
+      - credential-provider
+    environment:
+      - PROVIDER_TOKEN=STRONG_RANDOM_TOKEN_THIS_IS_DUMMY
+
+  flag-provider:
+    container_name: 'flag_provider'
+    build: ./flag_provider
+    restart: always
+    environment:
+      - FLAG=dummy{this_is_a_dummy_flag}
+      # same as PROVIDER_TOKEN
+      - VALID_TOKEN=STRONG_RANDOM_TOKEN_THIS_IS_DUMMY

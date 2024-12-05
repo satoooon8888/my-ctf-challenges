@@ -1,0 +1,1 @@
+nitic_ctf{rewrite_function_pointer_is_fun}

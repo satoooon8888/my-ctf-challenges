@@ -1,0 +1,5 @@
+# Bad JWT
+
+## Author
+
+Satoooon

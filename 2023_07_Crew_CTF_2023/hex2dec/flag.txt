@@ -1,0 +1,1 @@
+crew{dom_clobbering_is_helpful_for_a_restricted_xss}

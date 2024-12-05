@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>flag form</title>
+</head>
+<body>
+	<h1>Do you want the flag?</h1>
+	<p>password: <input type="text" id="password"></p>
+	<p><button id="submit">Submit</button></p>
+	<pre id="response"></pre>
+	<script>
+		document.getElementById("submit").onclick = () => {
+			const data = {"pass": document.getElementById("password").value};
+			fetch('/flag', {
+				method: 'POST',
+				headers: {
+					'Content-Type': 'application/json',
+				},
+				body: JSON.stringify(data),
+			})
+			.then(async (res) => document.getElementById("response").innerHTML = await res.text());
+		};
+	</script>
+</body>
+</html>

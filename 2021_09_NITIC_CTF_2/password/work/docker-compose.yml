@@ -1,0 +1,10 @@
+version: '3'
+services:
+  password:
+    build: '.'
+    ports:
+      - "8001:8080"
+    environment:
+      - UWSGI_INI=/home/web/uwsgi.ini
+      - LISTEN_PORT=8080
+    restart: always

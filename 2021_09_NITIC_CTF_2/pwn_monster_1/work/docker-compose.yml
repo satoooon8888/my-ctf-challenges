@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  server:
+    build: '.'
+    image: 'pwn_monster_1_image'
+    container_name: 'pwn_monster_1'
+    ports:
+      - '9000:9000/tcp'
