@@ -15,7 +15,7 @@ Dec 23 2023 - Dec 24 2023
 
 | Challenge | Category | Estimated-difficulty | Keywords |
 | ---       | ---      | ---                  | ---      |
-| [Plain Blog](2023_12_SECCON_CTF_2023_Finals/Plain-Blog) | web | easy | Path Traversal |
+| [Plain Blog](2023_12_SECCON_CTF_2023_Finals/Plain-Blog) | web | easy | Path Traversal, procfs |
 
 ## SECCON CTF 2023 Quals
 
@@ -43,8 +43,8 @@ Sep 5 2021 - Sep 6 2021
 
 | Challenge | Category | Estimated-difficulty | Keywords |
 | ---       | ---      | ---                  | ---      |
-| [password](2021_09_NITIC_CTF_2/password) | web | easy | Comparison |
-| [password fixed](2021_09_NITIC_CTF_2/password-fixed) | web | easy | Comparison |
+| [password](2021_09_NITIC_CTF_2/password) | web | easy | Comparison Oracle |
+| [password fixed](2021_09_NITIC_CTF_2/password-fixed) | web | easy | Comparison Oracle |
 | [pwn monster 1](2021_09_NITIC_CTF_2/pwn_monster_3) | pwn | beginner | BOF |
 | [pwn monster 2](2021_09_NITIC_CTF_2/pwn_monster_3) | pwn | beginner | BOF |
 | [pwn monster 3](2021_09_NITIC_CTF_2/pwn_monster_3) | pwn | beginner | BOF |
@@ -59,7 +59,7 @@ Dec 24 2020 - Dec 25 2020
 
 | Challenge | Category | Estimated-difficulty | Keywords |
 | ---       | ---      | ---                  | ---      |
-| [bad_path](2020_12_KosenXm4sCTF/bad_path) | web | beginner | |
+| [bad_path](2020_12_KosenXm4sCTF/bad_path) | web | beginner | LFI |
 | [first_asm](2020_12_KosenXm4sCTF/first_asm) | rev | beginner | |
 | [countdown](2020_12_KosenXm4sCTF/countdown) | rev | easy |  |
 | [dummy](2020_12_KosenXm4sCTF/dummy) | rev | medium | |
