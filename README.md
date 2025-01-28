@@ -6,8 +6,8 @@ Nov 23 2024 - Nov 24 2024
 
 | Challenge | Category | Estimated-difficulty | Keywords |
 | ---       | ---      | ---                  | ---      |
-| [JavaScrypto](2024_11_SECCON_CTF_13/Javascrypto) | web | easy-medium | Prototype Pollution, CryptoJS |
-| [Tanuki Udon](2024_11_SECCON_CTF_13/Tanuki-Udon) | web | hard | Speculation Rules API, XS-Leaks |
+| [JavaScrypto](2024_11_SECCON_CTF_13_Quals/Javascrypto) | web | easy-medium | Prototype Pollution, CryptoJS |
+| [Tanuki Udon](2024_11_SECCON_CTF_13_Quals/Tanuki-Udon) | web | hard | Speculation Rules API, XS-Leaks |
 
 ## SECCON CTF 2023 Finals
 
